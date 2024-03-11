@@ -61,6 +61,7 @@ export interface CarouselProps {
     animationHandler: 'slide' | 'fade' | AnimationHandler;
     swipeAnimationHandler: SwipeAnimationHandler;
     stopSwipingHandler: StopSwipingHandler;
+    times: string[];
 }
 export interface CarouselState {
     autoPlay?: boolean;

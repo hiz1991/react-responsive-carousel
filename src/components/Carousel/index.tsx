@@ -113,6 +113,7 @@ export default class Carousel extends React.Component<CarouselProps, CarouselSta
         animationHandler: 'slide',
         swipeAnimationHandler: slideSwipeAnimationHandler,
         stopSwipingHandler: slideStopSwipingHandler,
+        times: [],
     };
 
     constructor(props: CarouselProps) {
