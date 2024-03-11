@@ -303,7 +303,7 @@ export default class Carousel extends React.Component<CarouselProps, CarouselSta
         if (!this.props.autoPlay) {
             return;
         }
-
+        console.log('autoPlay');
         this.timer = setTimeout(() => {
             this.increment();
         }, this.props.interval);
